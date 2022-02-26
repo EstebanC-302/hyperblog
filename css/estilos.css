@@ -1,4 +1,20 @@
 body {
-    text-align: center;
+    color: gray;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    text-align: left;
+    border: 1px solid black;
+    margin: auto;
+    padding: 1em;
+} 
+
+.container h1 {
+    font-size: 20px;
+} 
+
+.container p {
+    font-size: 16px;
 }
