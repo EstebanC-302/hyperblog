@@ -1,4 +1,5 @@
 body {
+    background: black;
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -6,13 +7,17 @@ body {
 .container {
     width: 70%;
     text-align: left;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: auto;
-    padding: 0;
+    padding: 0; 
+    color: gray; 
+    background: white;
+
 } 
 
 .container h1 {
     font-size: 20px;
+    color: black;
 } 
 
 .container p {
@@ -27,6 +32,17 @@ body {
     margin: 0;
     padding: 0.5em;
     box-shadow: 0px 8px 5px 4px rgba(0,0,0,0.75);
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logo img {
+    width: 80px;
+    height: 50px;
 }
 
 #cabecera .tagline {
