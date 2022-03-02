@@ -53,4 +53,12 @@ body {
 
 .post {
     padding: 1em;
+} 
+
+.footer {
+    background-color: gray; 
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
 }
